@@ -1,0 +1,10 @@
+def make_username(first_name,last_name):
+
+    first_name = first_name.lower()
+    last_name = last_name.lower()
+    first_name = first_name.replace(" ","")
+    last_name = last_name.replace(" ","")
+
+    return first_name + "." + last_name
+
+print(make_username("Jairus","Ramos"))
