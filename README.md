@@ -19,6 +19,7 @@ I used "She Will" as my example.
 The code was:
 
 rotate_word_1 = "She Will"
+
 print(rotate_word_1[1:] + rotate_word_1[0])
 
 The output was:
