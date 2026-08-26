@@ -1,3 +1,9 @@
+# ECE-2112-PA-1
+
+Jairus Gabriel Ramos 
+
+2ECE-D
+
 # EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING
 
 This repository contains my Programming Assignment 1 for our Advanced Computer Programming course (S.Y. 2025-2026). It covers three basic Python problems from Module 1.
