@@ -2,35 +2,64 @@
 
 This repository contains my Programming Assignment 1 for our Advanced Computer Programming course (S.Y. 2025-2026). It covers three basic Python problems from Module 1.
 
-## Contents
+## Objective
 
-## A. Word Rotation Problem
-Goal: Move the first letter of a word to the very end.
+The objective of this activity is to apply basic Python programming concepts through string manipulation, string methods, slicing, functions, and sequence unpacking.
 
-How it works:
+## Detailed Discussion of the Experiment
 
-[1:] gets the whole word except the first letter.
+This activity was completed using Python in a Jupyter Notebook. It consists of three programming problems: Word Rotation, Username Builder, and Bookend Swap.
 
-[0] gets only the first letter.
+### A. Word Rotation Problem
 
-We used + to join them together.
+For the Word Rotation Problem, I used string slicing to move the first character of the string to the end.
 
-## B. Username Builder Problem
-Goal: Make a username from a first and last name. It needs to have small letters, no spaces, and a period in the middle.
+I used "She Will" as my example.
 
-How it works:
+The code was:
 
-.lower() makes all the letters small.
+rotate_word_1 = "She Will"
 
-.replace(" ", "") removes any spaces.
+print(rotate_word_1[1:] + rotate_word_1[0])
 
-We used + to connect the names and the period.
+The output was:
 
-## C. Bookend Swap Problem
-Goal: Swap the first and last items of a list, but keep the middle items in the same order.
+he WillS
 
-How it works:
+The [1:] gets all the characters starting from the second character, while [0] gets the first character. The two parts are then joined together using +.
 
-first, *middle, last is a fast trick to split the list into three parts.
+### B. Username Builder Problem
 
-We used + to put the list back together with the first and last parts swapped.
+For the Username Builder Problem, I created a function called make_username().
+
+The function converts the first and last names to lowercase and removes spaces using the replace() method. It then joins the two names using a period.
+
+I tested the function using my name:
+
+make_username("Jairus", "Ramos")
+
+The output was:
+
+jairus.ramos
+
+### C. Bookend Swap Problem
+
+For the Bookend Swap Problem, I created a function called swap_bookends().
+
+The function uses sequence unpacking to separate the first element, middle elements, and last element of a list.
+
+The sequence unpacking used was:
+
+first, *middle, last = items
+
+The first and last elements are then exchanged while the middle elements remain in their original order.
+
+I tested the function using three different lists.
+
+The outputs were:
+
+[7, 2, 3, 4, 5, 6, 1]
+
+["blue", "green", "red"] 
+
+[3, 8]
