@@ -1,8 +1,6 @@
 # ECE-2112-PA-1
 
-Jairus Gabriel Ramos 
-
-2ECE-D
+Created by: Jairus Gabriel Ramos | 2ECE-D
 
 # EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING
 
